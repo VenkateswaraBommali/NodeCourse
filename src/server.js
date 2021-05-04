@@ -28,7 +28,7 @@ app.get('/help',(req,res)=>{
 app.get('*',(req,res)=>{
     res.send('404 page')
 })
-
+//console.log('dfd')
 app.listen(3000,()=>{
     console.log('server is running @3000')
 })
